@@ -1,4 +1,4 @@
-# Md Ranju Portfolio Next.js
+# Ruis Sander Portfolio Next.js
 
 ## Overview
 
