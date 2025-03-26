@@ -81,7 +81,7 @@ function Contact() {
 
   return (
     <>
-      {/* <title>Contact - MDR</title> */}
+      {/* <title>Contact - RS</title> */}
 
       <AnimatedGridPattern
         numSquares={30}
@@ -126,15 +126,11 @@ function Contact() {
                   </p>
                   <div className="space-y-2 mt-3">
                     <div className="flex text-sm font-medium leading-none  peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
-                      <MdEmail className="mr-2" /> Email: mdranju23@gmail.com
-                    </div>
-                    <div className="flex text-sm font-medium leading-none  peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
-                      <FaPhone className="mr-2" />
-                      Number: +8801799301290
+                      <MdEmail className="mr-2" /> Email: ruissander9@gmail.com
                     </div>
                     <div className="flex text-sm font-medium leading-none  peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                       <FaLocationDot className="mr-2" />
-                      Location: Rajshahi, Bangladesh
+                      Location: Warsaw, Poland
                     </div>
                   </div>
                   <form
@@ -262,23 +258,6 @@ function Contact() {
                     >
                       Send Message
                     </button>
-                    {/* <AnimatedSubscribeButton
-                      buttonColor="#6366f1 "
-                      buttonTextColor="#ffffff"
-                      subscribeStatus={false}
-                      initialText={
-                        <span className="group inline-flex items-center">
-                          Send Message{" "}
-                          <ChevronRightIcon className="ml-1 size-4 transition-transform duration-300 group-hover:translate-x-1" />
-                        </span>
-                      }
-                      changeText={
-                        <span className="group inline-flex items-center">
-                          <CheckIcon className="mr-2 size-4" />
-                          {error ? "Message Sent Failed!" : "Message Sended"}
-                        </span>
-                      }
-                    /> */}
                   </form>
                 </div>
               </div>

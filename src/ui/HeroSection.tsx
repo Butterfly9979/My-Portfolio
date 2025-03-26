@@ -2,15 +2,11 @@ import Image from "next/image";
 import { BiLogoTypescript } from "react-icons/bi";
 import { DiMongodb } from "react-icons/di";
 import {
-  FaGithub,
-  FaLinkedin,
   FaNode,
   FaReact,
-  FaXTwitter,
 } from "react-icons/fa6";
 import { RiJavascriptFill } from "react-icons/ri";
 import { SiExpress, SiNextdotjs, SiTailwindcss } from "react-icons/si";
-import heroImage from "../../public/hero-image.jpeg";
 
 import { FlipWords } from "@/components/ui/flip-words";
 import { HoverBorderGradient } from "@/components/ui/hover-border-gradient";
@@ -55,7 +51,7 @@ function HeroSection() {
             <h1 className="mt-3 max-w-4xl text-3xl  font-extrabold tracking-tight md:text-4xl lg:text-6xl flex">
               <span className="mr-3 font-medium">I'm</span>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
-                Muhammad Ranju
+                Ruis Sander
               </span>
             </h1>
             <h2 className="mt-6 font-bold lg:text-2xl md:text-xl sm:text-lg flex flex-row items-center">
@@ -65,50 +61,15 @@ function HeroSection() {
               </div>
             </h2>
             <p className="mt-5  text-base font-medium lg:w-4/5">
-              Welcome to my portfolio! I hope you enjoy your visit. I specialize
-              in Back-End development with Node.js and Front-End development
-              with React.js. I have worked on various projects, including a Real{" "}
-              <span className="text-indigo-600">Link-Shortener</span>,
-              E-Commerce APIs,{" "}
-              <span className="text-indigo-600">React-based</span> Website
-              Design and Development, and more.
-              <br />I am passionate about learning new technologies and building
-              solutions that make a difference. Thank you for visiting my
-              portfolio! I hope you like my work.{" "}
+              Welcome to my portfolio! Experienced Full-Stack Developer with many years of expertise in designing developing, and optimizing secure and scalable web applications. Proficient in front-end and back-end technologies, including React.js, Node.js, and blockchain development. Experienced in building high-performance systems, enhancing application efficiency, and implementing strong security measures to protect data and ensure reliability.
               <span className="text-yellow-500">Happy coding!</span> 🧑🏻‍💻
             </p>
-
-            {/*I have 2+ years of experience in Node.js, Express.js, MongoDB,
-              React.js and other related technologies. */}
-            <div className="flex gap-5 mt-5 border-white border-collapse rounded">
-              <a
-                href="https://github.com/muhammadranju"
-                aria-label="GitHub Icon"
-                target="_blank"
-              >
-                <FaGithub className="h-7 w-7" />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/muhammadranju"
-                target="_blank"
-                aria-label="Linkedin Icon"
-              >
-                <FaLinkedin className="h-7 w-7" />
-              </a>
-              <a
-                href="https://twitter.com/muhammad_ranju"
-                aria-label="Twitter Icon"
-                target="_blank"
-              >
-                <FaXTwitter className="h-7 w-7" />
-              </a>
-            </div>
             <div className="mt-5">
               <div className="flex mt-5 gap-x-2 border-white border-collapse rounded">
                 <a
                   href="../../full_stack_developer_resume.pdf"
                   target="_blank"
-                  download="full_stack_developer_resume_of_mdranju.pdf"
+                  download="full_stack_developer_resume_of_RSanju.pdf"
                 >
                   <ShimmerButton className="shadow-2xl">
                     <span className="whitespace-pre-wrap flex items-center text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-base">
@@ -160,14 +121,6 @@ function HeroSection() {
           </div>
         </div>
         <hr className="my-5 w-full -mt-3" />
-        <div className="rounded-lg lg:bg-gray-500 lg:p-[3px] px-2">
-          <Image
-            placeholder="blur"
-            className="rounded-lg"
-            src={heroImage}
-            alt="Hero Image"
-          />
-        </div>
       </div>
     </div>
   );

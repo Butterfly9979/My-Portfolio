@@ -99,17 +99,6 @@ function Project() {
                           ? post?.details.substring(0, 150).concat("...")
                           : post?.details}
                       </p>
-                      {/* {post?.tags.length > 0 ? (
-                        <div className="flex flex-row justify-center lowercase items-center mt-4 space-x-2">
-                          <p className=" font-semibold capitalize">Tags:</p>
-                          {post?.tags.map((tag: any) => (
-                            <span className="text-sm ">{tag}</span>
-                          ))}
-                        </div>
-                      ) : (
-                        ""
-                      )} */}
-
                       <div className="mt-4 flex lg:space-x-3 space-x-2 ">
                         <Image
                           className="h-full lg:w-10 w-8 rounded-lg"
@@ -130,71 +119,56 @@ function Project() {
                           </span>
                         </div>
 
-                        <div>
-                          <Link
-                            href={post?.sourceCode}
-                            target="_blank"
-                            className="transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-y-0"
-                          >
-                            {/* <button className="inset-x-0 flex gap-x-1 items-center rounded-lg shadow-md px-3 py-2.5 text-sm font-semibold transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 bg-slate-800 text-white hover:bg-slate-700/90">
-                              <FaGithub className="font-extrabold text-lg" />{" "}
-                              Code
-                            </button> */}
-                            <HoverBorderGradient
-                              containerClassName="rounded-lg"
-                              as="button"
-                              className="dark:bg-slate-800 bg-slate-200 text-slate-900 dark:text-slate-100 flex items-center space-x-2"
+                        {/* <div>
+                          {post?.sourceCode && (
+                            <Link
+                              href={post.sourceCode}
+                              target="_blank"
+                              className="transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-y-0"
                             >
-                              <FaGithub className="font-extrabold text-lg " />{" "}
-                              {/* Code */}
-                            </HoverBorderGradient>
-                          </Link>
-                        </div>
-                        {post?.liveLink ? (
-                          <>
-                            <div>
-                              <Link
-                                href={post?.liveLink}
-                                target="_blank"
-                                className="transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-y-0"
+                              <HoverBorderGradient
+                                containerClassName="rounded-lg"
+                                as="button"
+                                className="dark:bg-slate-800 bg-slate-200 text-slate-900 dark:text-slate-100 flex items-center space-x-2"
                               >
-                                {/* <button className="inset-x-0 flex gap-x-1 items-center rounded-lg shadow-md px-3 py-2.5 text-sm font-semibold transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 bg-indigo-500 text-white hover:bg-indigo-600">
-                                  <MdOpenInNew className="font-extrabold text-lg" />{" "}
-                                  Live
-                                </button> */}
-                                <HoverBorderGradient
-                                  containerClassName="rounded-lg"
-                                  as="button"
-                                  className="dark:bg-indigo-500 bg-indigo-500 text-slate-100 dark:text-slate-100 flex items-center space-x-2"
-                                >
-                                  <MdOpenInNew className="font-extrabold text-lg " />{" "}
-                                  {/* Live */}
-                                </HoverBorderGradient>
-                              </Link>
-                            </div>
-                          </>
-                        ) : (
-                          ""
-                        )}
+                                <FaGithub className="font-extrabold text-lg " />{" "}
+                              </HoverBorderGradient>
+                            </Link>
+                          )}
+                        </div> */}
                         <div>
-                          <Link
-                            href={`/project/${post?._id}`}
-                            className="transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-y-0"
-                          >
-                            {/* <button className="inset-x-0 flex gap-x-1 items-center rounded-lg shadow-md px-3 py-2.5 text-sm font-semibold transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 bg-slate-800 text-white hover:bg-slate-700/90">
-                              <FaGithub className="font-extrabold text-lg" />{" "}
-                              Code
-                            </button> */}
-                            <HoverBorderGradient
-                              containerClassName="rounded-lg"
-                              as="button"
-                              className="dark:bg-slate-800 bg-slate-200 text-slate-900 dark:text-slate-100 flex items-center space-x-2"
+                          {post?.liveLink && (
+                            <Link
+                              href={post.liveLink}
+                              target="_blank"
+                              className="transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-y-0"
                             >
-                              <HiViewGridAdd className="font-extrabold text-lg " />{" "}
-                              {/* Code */}
-                            </HoverBorderGradient>
-                          </Link>
+                              <HoverBorderGradient
+                                containerClassName="rounded-lg"
+                                as="button"
+                                className="dark:bg-indigo-500 bg-indigo-500 text-slate-100 dark:text-slate-100 flex items-center space-x-2"
+                              >
+                                <MdOpenInNew className="font-extrabold text-lg " />{" "}
+                              </HoverBorderGradient>
+                            </Link>
+                          )}
                         </div>
+                        {/* <div>
+                          {post?._id && (
+                            <Link
+                              href={`/project/${post._id}`}
+                              className="transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-y-0"
+                            >
+                              <HoverBorderGradient
+                                containerClassName="rounded-lg"
+                                as="button"
+                                className="dark:bg-slate-800 bg-slate-200 text-slate-900 dark:text-slate-100 flex items-center space-x-2"
+                              >
+                                <HiViewGridAdd className="font-extrabold text-lg " />{" "}
+                              </HoverBorderGradient>
+                            </Link>
+                          )}
+                        </div> */}
                       </div>
                     </div>
                   </div>

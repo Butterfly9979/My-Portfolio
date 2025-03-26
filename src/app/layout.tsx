@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     description: metaData.description,
     images: [
       {
-        url: metaData.image,
+        url: metaData.imageOfRuis,
 
         alt: metaData.title,
       },
@@ -36,20 +36,20 @@ export const metadata: Metadata = {
 
     siteName: metaData.title,
     type: "website",
-    url: "https://mdranju.xyz",
+    url: "https://ruissander-portfolio.vercel.app",
   },
   twitter: {
     title: metaData.title,
     description: metaData.description,
     images: [
       {
-        url: metaData.image,
+        url: metaData.imageOfRuis,
 
         alt: metaData.title,
       },
     ],
     card: "summary_large_image",
-    site: "@muhammad_ranju",
+    site: "@ruis_sander",
   },
 };
 

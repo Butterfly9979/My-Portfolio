@@ -16,15 +16,14 @@ export const metadata: Metadata = {
       "I think it's great that you're open to hearing from others! Sharing thoughts fosters connection and creativity. Whether it's a deep insight, casual chat, or random idea, communication builds understanding.",
     images: [
       {
-        url: metaData.image,
-
+        url: metaData.imageOfRuis,
         alt: "Contact Page",
       },
     ],
 
     siteName: "Contact Page",
     type: "website",
-    url: "https://mdranju.xyz/contact",
+    url: "https://ruissander-portfolio.vercel.app/contact",
   },
   twitter: {
     title: "Contact Page",
@@ -32,13 +31,12 @@ export const metadata: Metadata = {
       "I think it's great that you're open to hearing from others! Sharing thoughts fosters connection and creativity. Whether it's a deep insight, casual chat, or random idea, communication builds understanding.",
     images: [
       {
-        url: metaData.image,
-
+        url: metaData.imageOfRuis,
         alt: "Contact Page",
       },
     ],
     card: "summary_large_image",
-    site: "@muhammad_ranju",
+    site: "@ruis_sander",
   },
 };
 const ContactPage = () => {

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
       "Welcome back! I Hope you enjoy your visit. You can login with your email and password to access your account.",
     images: [
       {
-        url: metaData.image,
+        url: metaData.imageOfRuis,
 
         alt: "Login Page",
       },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 
     siteName: "Login Page",
     type: "website",
-    url: "https://mdranju.xyz/login",
+    url: "https://ruissander-portfolio.vercel.app/login",
   },
   twitter: {
     title: "Login Page",
@@ -31,13 +31,13 @@ export const metadata: Metadata = {
       "Welcome back! I Hope you enjoy your visit. You can login with your email and password to access your account.",
     images: [
       {
-        url: metaData.image,
+        url: metaData.imageOfRuis,
 
         alt: "Login Page",
       },
     ],
     card: "summary_large_image",
-    site: "@muhammad_ranju",
+    site: "@ruis_sander",
   },
 };
 

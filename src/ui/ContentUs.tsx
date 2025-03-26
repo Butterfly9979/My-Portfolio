@@ -1,5 +1,5 @@
 import BoxReveal from "@/components/ui/box-reveal";
-import Ranju from "../../public/mdranju.jpg";
+import Ruis from "../../public/RuisSander.jpg";
 import ShinyButton from "@/components/ui/shiny-button";
 import Image from "next/image";
 import Link from "next/link";
@@ -24,8 +24,8 @@ export const ContentUs = () => {
           height={500}
           className="object-cover z-50 overflow-hidden w-full h-56 rounded-xl shadow-lg lg:shadow-none md:h-96 lg:h-full"
           placeholder="blur"
-          src={Ranju}
-          alt="Md Ranju Images"
+          src={Ruis}
+          alt="Ruis Sander Images"
         />
       </div>
 
@@ -40,21 +40,18 @@ export const ContentUs = () => {
             Hi, I'm{" "}
             <span className="text-xl font-bold md:text-2xl text-indigo-500">
               {" "}
-              Md. Ranju
+              Ruis Sander
             </span>
-            , a passionate Web Application Developer from Rajshahi, Bangladesh.
-            I began my journey into web development in 2021, the same year I
-            completed my Higher Secondary Certificate (HSC). Currently, I am
-            pursuing further studies at Degree College while continuing to
-            enhance my skills in both front-end and back-end technologies.
-            <br />
-            Over the past few years, I have honed my expertise in Web
-            Application Development, enabling me to build dynamic, responsive
-            websites and applications from the ground up. My skill set spans
-            various programming languages and frameworks, including HTML, CSS,
-            JavaScript, Node.js, React.js, Next.js, MongoDB and more. I am
-            committed to delivering efficient, high-quality solutions that meet
-            the needs of clients and users alike.
+            I am a full-stack developer with a deep passion for programming.
+            Since I was a child, I have been fascinated by the world of technology and have found joy in solving problems and creating innovative solutions.
+            My love of coding led me to pursue a degree in Computer Science, where I honed my skills and built a strong foundation in software development.
+
+            Programming is not just a job for me; it is a passion, an outlet for my creativity, and a driving force of my ambition.
+            Every line of code I write brings me closer to new challenges, learning opportunities, and personal growth.
+
+            My goals are to continuously improve my skills, build impactful applications, and contribute to the ever-evolving field of technology.
+            I strive for excellence in every project, and aim to create solutions that are not only efficient but also meaningful.
+            I aspire to shape the future through programming, drive innovation, and brighten my journey in the world of technology.
           </p>
           <div className="flex items-center z-10">
             <Link href="/contact">

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
       "This is my portfolio page. I have a lot of projects that I have worked on. You can find them here. I hope you enjoy your visit.",
     images: [
       {
-        url: metaData.image,
+        url: metaData.imageOfRuis,
 
         alt: "Projects Page",
       },
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 
     siteName: "Projects Page",
     type: "website",
-    url: "https://mdranju.xyz/projects",
+    url: "https://ruissander-portfolio.vercel.app/projects",
   },
   twitter: {
     title: "Projects Page",
@@ -33,13 +33,13 @@ export const metadata: Metadata = {
       "This is my portfolio page. I have a lot of projects that I have worked on. You can find them here. I hope you enjoy your visit.",
     images: [
       {
-        url: metaData.image,
+        url: metaData.imageOfRuis,
 
         alt: "Projects Page",
       },
     ],
     card: "summary_large_image",
-    site: "@muhammad_ranju",
+    site: "@ruis_sander",
   },
 };
 

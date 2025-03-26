@@ -28,7 +28,7 @@ export async function generateMetadata({
   const description = project?.details || "Default Project Description";
   const image =
     project?.image ||
-    "https://res.cloudinary.com/nodelove/image/upload/f_auto,q_auto/v1/mdranju/ngpfp5vkd5ky5wfst2ec";
+    "https://res.cloudinary.com/nodelove/image/upload/f_auto,q_auto/v1/RSanju/ngpfp5vkd5ky5wfst2ec";
 
   return {
     title,
@@ -45,7 +45,7 @@ export async function generateMetadata({
       ],
       siteName: "Md Ranju Portfolio",
       type: "website",
-      url: `https://mdranju.xyz/project/${id}`,
+      url: `https://ruissander-portfolio.vercel.app/project/${id}`,
     },
     twitter: {
       title,
@@ -57,7 +57,7 @@ export async function generateMetadata({
         },
       ],
       card: "summary_large_image",
-      site: "@muhammad_ranju",
+      site: "@ruis_sander",
     },
   };
 }

@@ -74,8 +74,8 @@ const ProjectUpdate = ({ projectID }: any) => {
         image: project.image,
         category: project.category,
         tags: project.tags,
-        author: "Md. Ranju",
-        avatar: "https://avatars.githubusercontent.com/u/80270685?v=4",
+        author: "Ruis Sander",
+        avatar: "https://avatars.githubusercontent.com/u/200890800?s=96&v=4",
       }),
     });
 

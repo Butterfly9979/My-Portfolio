@@ -1,22 +1,21 @@
 import { Metadata } from "next";
 import About from "./AboutPage";
 import metaData from "@/data/metadata.json";
-import Ranju from "../../public/mdranju.jpg";
 export const metadata: Metadata = {
   title: {
     default: "About",
     template: `%s - ${"About"}`,
   },
   description:
-    "Hi, I'm Md. Ranju, a passionate Web Application Developer from Rajshahi, Bangladesh. I began my journey into web development in 2021, the same year I completed my Higher Secondary Certificate (HSC). Currently, I am pursuing further studies at Degree College while continuing to enhance my skills in both front-end and back-end technologies.Over the past few years, I have honed my expertise in Web Application Development, enabling me to build dynamic, responsive websites and applications from the ground up. My skill set spans various programming languages and frameworks, including HTML, CSS, JavaScript, Node.js, React.js, Next.js, MongoDB and more. I am committed to delivering efficient, high-quality solutions that meet the needs of clients and users alike.",
+    "Hi, I'm Ruis Sander, Experienced Full-Stack Developer with many years of expertise in designing developing, and optimizing secure and scalable web applications. Proficient in front-end and back-end technologies, including React.js, Node.js, and blockchain development. Experienced in building high-performance systems, enhancing application efficiency, and implementing strong security measures to protect data and ensure reliability.",
   keywords: metaData.keywords,
   openGraph: {
     title: "About Page",
     description:
-      "Hi, I'm Md. Ranju, a passionate Web Application Developer from Rajshahi, Bangladesh. I began my journey into web development in 2021, the same year I completed my Higher Secondary Certificate (HSC). Currently, I am pursuing further studies at Degree College while continuing to enhance my skills in both front-end and back-end technologies.Over the past few years, I have honed my expertise in Web Application Development, enabling me to build dynamic, responsive websites and applications from the ground up. My skill set spans various programming languages and frameworks, including HTML, CSS, JavaScript, Node.js, React.js, Next.js, MongoDB and more. I am committed to delivering efficient, high-quality solutions that meet the needs of clients and users alike.",
+      "Hi, I'm Ruis Sander, Experienced Full-Stack Developer with many years of expertise in designing developing, and optimizing secure and scalable web applications. Proficient in front-end and back-end technologies, including React.js, Node.js, and blockchain development. Experienced in building high-performance systems, enhancing application efficiency, and implementing strong security measures to protect data and ensure reliability.",
     images: [
       {
-        url: metaData.imageOfRanju,
+        url: metaData.imageOfRuis,
 
         alt: "About Page",
       },
@@ -24,21 +23,21 @@ export const metadata: Metadata = {
 
     siteName: "About Page",
     type: "website",
-    url: "https://mdranju.xyz/about",
+    url: "https://ruissander-portfolio.vercel.app/about",
   },
   twitter: {
     title: "About Page",
     description:
-      "Hi, I'm Md. Ranju, a passionate Web Application Developer from Rajshahi, Bangladesh. I began my journey into web development in 2021, the same year I completed my Higher Secondary Certificate (HSC). Currently, I am pursuing further studies at Degree College while continuing to enhance my skills in both front-end and back-end technologies.Over the past few years, I have honed my expertise in Web Application Development, enabling me to build dynamic, responsive websites and applications from the ground up. My skill set spans various programming languages and frameworks, including HTML, CSS, JavaScript, Node.js, React.js, Next.js, MongoDB and more. I am committed to delivering efficient, high-quality solutions that meet the needs of clients and users alike.",
+      "Hi, I'm Ruis Sander, Experienced Full-Stack Developer with many years of expertise in designing developing, and optimizing secure and scalable web applications. Proficient in front-end and back-end technologies, including React.js, Node.js, and blockchain development. Experienced in building high-performance systems, enhancing application efficiency, and implementing strong security measures to protect data and ensure reliability.",
     images: [
       {
-        url: metaData.imageOfRanju,
+        url: metaData.imageOfRuis,
 
         alt: "About Page",
       },
     ],
     card: "summary_large_image",
-    site: "@muhammad_ranju",
+    site: "@ruis_sander",
   },
 };
 

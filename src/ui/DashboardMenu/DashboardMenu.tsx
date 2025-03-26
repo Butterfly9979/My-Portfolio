@@ -84,7 +84,7 @@ const DashboardMenu = () => {
               {/* latter */}
               <MenuItem>
                 <Link
-                  href="/dashboard/projects/add"
+                  href="/dashboard/contacts"
                   className="flex items-center px-4 py-2 text-sm text-gray-700 dark:hover:bg-slate-800 hover:bg-slate-200 dark:text-slate-200 data-focus:bg-gray-100 data-focus:text-gray-900 data-focus:outline-hidden"
                 >
                   <MdContactMail className="mr-1 text-lg" /> Contacts
@@ -92,7 +92,7 @@ const DashboardMenu = () => {
               </MenuItem>
               <MenuItem>
                 <Link
-                  href="/dashboard/projects/add"
+                  href="/dashboard/skills/add"
                   className="flex items-center px-4 py-2 text-sm text-gray-700 dark:hover:bg-slate-800 hover:bg-slate-200 dark:text-slate-200 data-focus:bg-gray-100 data-focus:text-gray-900 data-focus:outline-hidden"
                 >
                   <SiHyperskill className="mr-1 text-lg" /> Add Skill
@@ -100,7 +100,7 @@ const DashboardMenu = () => {
               </MenuItem>
               <MenuItem>
                 <Link
-                  href="/dashboard/projects/add"
+                  href="/dashboard/services/add"
                   className="flex items-center px-4 py-2 text-sm text-gray-700 dark:hover:bg-slate-800 hover:bg-slate-200 dark:text-slate-200 data-focus:bg-gray-100 data-focus:text-gray-900 data-focus:outline-hidden"
                 >
                   <FaServicestack className="mr-1 text-lg" /> Add Service
@@ -108,7 +108,7 @@ const DashboardMenu = () => {
               </MenuItem>
               <MenuItem>
                 <Link
-                  href="/dashboard/projects/add"
+                  href="/dashboard/bio"
                   className="flex items-center px-4 py-2 text-sm text-gray-700 dark:hover:bg-slate-800 hover:bg-slate-200 dark:text-slate-200 data-focus:bg-gray-100 data-focus:text-gray-900 data-focus:outline-hidden"
                 >
                   <BiOutline className="mr-1 text-lg" /> Change Bio
@@ -116,7 +116,7 @@ const DashboardMenu = () => {
               </MenuItem>
               <MenuItem>
                 <Link
-                  href="/dashboard/projects/add"
+                  href="/dashboard/resume"
                   className="flex items-center px-4 py-2 text-sm text-gray-700 dark:hover:bg-slate-800 hover:bg-slate-200 dark:text-slate-200 data-focus:bg-gray-100 data-focus:text-gray-900 data-focus:outline-hidden"
                 >
                   <FaLink className="mr-1 text-lg" /> Resume URL
@@ -124,7 +124,7 @@ const DashboardMenu = () => {
               </MenuItem>
               <MenuItem>
                 <Link
-                  href="/dashboard/projects/add"
+                  href="/dashboard/images"
                   className="flex items-center px-4 py-2 text-sm text-gray-700 dark:hover:bg-slate-800 hover:bg-slate-200 dark:text-slate-200 data-focus:bg-gray-100 data-focus:text-gray-900 data-focus:outline-hidden"
                 >
                   <FaCloudUploadAlt className="mr-1 text-lg" /> Generate Image

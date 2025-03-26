@@ -2,12 +2,12 @@
 
 ## Overview
 
-This is a provisional README file for the `mdranju-portfolio-nextjs` project. The project is currently under development, and functionalities are not yet complete.
+This is a provisional README file for the `RSanju-portfolio-nextjs` project. The project is currently under development, and functionalities are not yet complete.
 
 ## Project Structure
 
 ```
-/e:/mdranju-portfolio-nextjs/
+/e:/RSanju-portfolio-nextjs/
 ├── src/
 ├─── api/
 ├─── app/
@@ -46,11 +46,11 @@ This is a provisional README file for the `mdranju-portfolio-nextjs` project. Th
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/muhammadranju/mdranju-portfolio-nextjs
+   git clone https://github.com/muhammadranju/RSanju-portfolio-nextjs
    ```
 2. Navigate to the project directory:
    ```bash
-   cd mdranju-portfolio-nextjs
+   cd RSanju-portfolio-nextjs
    ```
 3. Install dependencies:
    ```bash
@@ -87,7 +87,7 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For any inquiries, please contact mdranju23@gmail.com.
+For any inquiries, please contact RSanju23@gmail.com.
 
 ![Screenshot1](./public/home.jpeg)
 ![Screenshot2](./public/home2.jpeg)

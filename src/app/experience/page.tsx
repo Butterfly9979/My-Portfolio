@@ -16,7 +16,7 @@ export const metadata: Metadata = {
       "My Experience Page. I have worked on various projects, including a Real Link-Shortener, E-Commerce APIs, React-based Website Design and Development, and more.",
     images: [
       {
-        url: metaData.image,
+        url: metaData.imageOfRuis,
 
         alt: "Experience Page",
       },
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 
     siteName: "Experience Page",
     type: "website",
-    url: "https://mdranju.xyz/experience",
+    url: "https://ruissander-portfolio.vercel.app/experience",
   },
   twitter: {
     title: "Experience Page",
@@ -32,13 +32,13 @@ export const metadata: Metadata = {
       "My Experience Page. I have worked on various projects, including a Real Link-Shortener, E-Commerce APIs, React-based Website Design and Development, and more.",
     images: [
       {
-        url: metaData.image,
+        url: metaData.imageOfRuis,
 
         alt: "Experience Page",
       },
     ],
     card: "summary_large_image",
-    site: "@muhammad_ranju",
+    site: "@ruis_sander",
   },
 };
 
